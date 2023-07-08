@@ -8,6 +8,9 @@ body{
 header{
 
     background-color: #fff8f3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 nav{
@@ -67,12 +70,53 @@ color:darkgray;
 
 .banner{
 
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner-pic{
 
 width:500px;
 
+}
+
+.banner-getting{
+    font-size: 45px;
+    color:rgb(197, 187, 187);
+    margin-bottom: 0px;
+}
+.banner-h2{
+    font-size: 70px;
+    margin-top:25px;
+}
+
+.banner-p{
+    font-size: 20px;
+   margin-top: 10px;
+}
+
+.banner-heading{
+    max-width: 500px;
+}
+
+.about{
+padding:130px;
+background: #fff8f3;
+border-radius: 10PX;
+margin:130px 0;
+}
+.about-h{
+
+font-size:35px;
+font-weight: 700px;
+color:black;
+text-align: center;
+
+}
+
+.about-p{
+   font-size:25px;
+    color:#757575;
+ text-align: center;
 }
