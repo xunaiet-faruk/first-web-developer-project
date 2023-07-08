@@ -72,6 +72,10 @@ main{
 
     max-width:1140px;
     margin:0 auto;
+}
+
+main section{
+margin-top:130px;
 
 }
 
@@ -146,7 +150,33 @@ text-align: center;
     font-size: 20px;
 }
 
+.skills-container{
+display: flex;
+    gap: 24px;
+}
+
 .skill{
-display: inline-block;
+
+    padding: 30px;
+
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 8px 10px 10px red;
+}
+
+.skip-description{
+color:gray;
+
+} 
+.skill:hover{
+
+    background-color: aqua;
+    box-shadow: 10px 10px 10px green;
+}
+
+.resume-colom-tltle{
+            color:#474747;
+            font-size: 30px;
+            font-weight: 700;
 
 }
