@@ -120,7 +120,7 @@ margin:130px 0;
 }
 .about-h{
 
-font-size:35px;
+font-size:45px;
 font-weight: 700px;
 color:black;
 text-align: center;
@@ -178,5 +178,35 @@ color:gray;
             color:#474747;
             font-size: 30px;
             font-weight: 700;
+
+}
+
+
+.resume-container{
+
+    display: flex;
+    gap:50px;
+}
+
+.resume-container hr{
+    margin:30px;
+}
+
+.resume-colom-tltle{
+
+    font-size:40px;
+    font-weight: 700;
+    
+}
+
+.resume-item-info, .resume-item-discription{
+
+    color:gray;
+}
+
+.downlod{
+
+    text-align: center;
+    margin-top: 50px;
 
 }
