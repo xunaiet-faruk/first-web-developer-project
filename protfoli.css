@@ -1,0 +1,78 @@
+body{
+
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Belanosima', sans-serif;
+
+}
+
+header{
+
+    background-color: #fff8f3;
+}
+
+nav{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin:0 100px;
+
+}
+
+.nav-title{
+
+color:blcak;
+font-size: 45px;
+font-weight: 800px;
+
+}
+
+.spam{
+
+    color:orange;
+}
+
+.btn-primary{
+
+    background-color: orange;
+    font-size:20px;
+    border-radius: 5px;
+    border:0;
+    font-weight: 700px;
+    color:white;
+    padding: 12px 18px;
+ 
+}
+
+nav > ul{
+
+display: flex;
+align-items: center;
+
+}
+
+nav li{
+
+    list-style: none;
+    margin-right: 50px;
+    font-size: 1.5rem;
+
+}
+nav a{
+
+text-decoration: none;
+color:darkgray;
+
+}
+
+.banner{
+
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-pic{
+
+width:500px;
+
+}
