@@ -211,7 +211,31 @@ color:gray;
 }
 footer{
 display: flex;
+gap:100px;
 background: #fff8f3;
 margin-top: 100px;
 padding:130px 200px;
 }
+
+
+.footer-colomn{
+
+    width:50%;
+}
+
+.contact input, textarea{
+
+    display: block;
+    margin-bottom: 25px;
+    PADDING:15PX 30PX;
+    color:#757575;
+    background: #fff;
+    border-radius: 5px;
+    border:0;
+
+}
+
+#btn{
+    background-color: orange;
+}
+
